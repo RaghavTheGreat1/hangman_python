@@ -8,6 +8,7 @@ splitted_random_word = list(get_random_word.lower())
 
 
 def generate_dashed_list(splitted_word):
+    '''This function list of spiltted random words to underscores'''
     return ["_" for word in splitted_word]
 
 
